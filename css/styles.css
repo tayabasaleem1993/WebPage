@@ -1,43 +1,82 @@
+/**
+ *Webpage about myself
+ */
+html{
+	background-color:#102372
+}
+
 body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
+	background-color:#02AB21
+	}
+
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #acd1b2;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #acd1b2;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+#name {
+	position: relative;
+	top: -10px;
+	font-color:
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+#email{
+	float:right;
+	margin-right:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-family: Verdana, sans-serif;
+	color:#ffffff;
+}
+div{
+	border-radius:5px;
 }
 
-ul.posts li {
-    list-style: none;
+#footer{
+	position:relative;
+	height: 50px;
+	float:right;
+	background-color:#668284
+	clear:both;
+	font-family: Verdana, sans-serif;
+	font-size:14px;
+	text-align:center;
+	color:#ffffff
+}
+#footer p{
+	position:relative;
+	padding-top:15px;
+}
+h1:hover
+{
+	background-color:#102372;
+}
+h2:hover
+{
+	background-color:#102372;
+}
+div{
+	border-radius:3px dotted blue;
+}
+img{
+	border-radius:3px dotted blue;
+}
+li{
+
+}
+table{
+
 }
