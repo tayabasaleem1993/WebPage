@@ -60,6 +60,9 @@ h2:hover
 	margin-bottom: 5px; 
 	border: solid black 1px; 
 	padding: 2px; 
+	object-fit:scale-down;
+        width:200px;
+        height:300px;
 }
 li{
 
