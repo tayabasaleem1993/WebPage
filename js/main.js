@@ -17,7 +17,7 @@ require(["esri/views/MapView", "esri/WebMap"], (MapView, WebMap) => {
         /************************************************************
          * Set the WebMap instance to the map property in a MapView.
          ************************************************************/
-        const viewDiv = new MapView({
+        const view = new MapView({
           map: webmap,
           container: "viewDiv"
         });
