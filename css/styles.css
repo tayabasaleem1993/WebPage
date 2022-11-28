@@ -64,6 +64,16 @@ h2:hover
         width:100px;
         height:100px;
 }
+float-img-1{
+		float: right;
+	margin-right: 10px; 
+	margin-bottom: 5px; 
+	border: solid black 1px; 
+	padding: 2px; 
+	object-fit:scale-down;
+        width:200px;
+        height:300px;
+}
 li{
 
 }
