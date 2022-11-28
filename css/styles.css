@@ -54,6 +54,13 @@ h2:hover
 	background-color:#E8DAEF;
 }
 
+.float-img {
+	float: right;
+	margin-right: 10px; 
+	margin-bottom: 5px; 
+	border: solid black 1px; 
+	padding: 2px; 
+}
 li{
 
 }
