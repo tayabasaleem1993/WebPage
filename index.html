@@ -1,51 +1,48 @@
 <!DOCTYPE html>
 <html>
    <head>
- <style>
-      html,
-      body,
-      #viewDiv {
-        padding: 2px;
-        margin: 10px;
-        height: 100%;
-        width: 100%;
-      }
-    </style>
-	<link
-      rel="stylesheet"
-      href="https://js.arcgis.com/4.25/esri/themes/light/main.css"
-    />
-
-    <script src="https://js.arcgis.com/4.25/"></script>
-	
+      <style>
+         html,
+         body,
+         #viewDiv {
+         padding: 2px;
+         margin: 10px;
+         height: 100%;
+         width: 100%;
+         }
+      </style>
+      <link
+         rel="stylesheet"
+         href="https://js.arcgis.com/4.25/esri/themes/light/main.css"
+         />
+      <script src="https://js.arcgis.com/4.25/"></script>
       <link rel="stylesheet" href="css/styles.css"/>
-
-     <script>
-      require(["esri/views/MapView", "esri/WebMap"], (MapView, WebMap) => {
-        /************************************************************
-         * Creates a new WebMap instance. A WebMap must reference
-         * a PortalItem ID that represents a WebMap saved to
-         * arcgis.com or an on-premise portal.
-         *
-         * To load a WebMap from an on-premise portal, set the portal
-         * url with esriConfig.portalUrl.
-         ************************************************************/
-        const webmap = new WebMap({
-          portalItem: {
-            // autocasts as new PortalItem()
-            id: "a57250d372094bd694dc49966b64e276"
-          }
-        });
-
-        /************************************************************
-         * Set the WebMap instance to the map property in a MapView.
-         ************************************************************/
-        const view = new MapView({
-          map: webmap,
-          container: "viewDiv"
-        });
-      });
-    </script>
+      <script>
+         require(["esri/views/MapView", "esri/WebMap"], (MapView, WebMap) => {
+           /************************************************************
+            * Creates a new WebMap instance. A WebMap must reference
+            * a PortalItem ID that represents a WebMap saved to
+            * arcgis.com or an on-premise portal.
+            *
+            * To load a WebMap from an on-premise portal, set the portal
+            * url with esriConfig.portalUrl.
+            ************************************************************/
+           const webmap = new WebMap({
+             portalItem: {
+               // autocasts as new PortalItem()
+               id: "a57250d372094bd694dc49966b64e276"
+             }
+           });
+         
+           /************************************************************
+            * Set the WebMap instance to the map property in a MapView.
+            ************************************************************/
+           const view = new MapView({
+             map: webmap,
+             container: "viewDiv"
+           });
+         });
+      </script>
       <title> Tayaba's Webpage</title>
    </head>
    <body>
@@ -92,26 +89,35 @@
          </tr>
       </table>
       <h2>Travel Images by Me</h2>
-<figure>   
-      <img src="0B1D3ED2-47EE-4669-AA3E-D37BC56C9451.JPG" width="240" height="240"
-         alt="Picture of Me"
-         class="float-img-1" />
-	<figcaption> Chicago- River Walk </figcaption>
-	   </figure>
-      <img src="IMG_4009 (1).jpg" width="240" height="240"
-         alt="Picture of Me"
-         class="float-img-1" />
-      <img src="IMG_3464.jpg" width="240" height="240"
-         alt="Picture of Me"
-         class="float-img-1" />
-      <img src="IMG_3994.JPG" width="240" height="240"
-         alt="Picture of Me"
-         class="float-img-1" />
+      <figure>
+         <img src="0B1D3ED2-47EE-4669-AA3E-D37BC56C9451.JPG" width="240" height="240"
+            alt="Picture of Me"
+            class="float-img-1" />
+         <figcaption> Chicago- River Walk </figcaption>
+      </figure>
+      <figure>
+         <img src="IMG_4009 (1).jpg" width="240" height="240"
+            alt="Picture of Me"
+            class="float-img-1" />
+         <figcaption> South Carolina- Caesars Head </figcaption>
+      </figure>
+      <figure>
+         <img src="IMG_3464.jpg" width="240" height="240"
+            alt="Picture of Me"
+            class="float-img-1" />
+         <figcaption> California- Lombard Street  </figcaption>
+      </figure>
+      <figure>
+         <img src="IMG_3994.JPG" width="240" height="240"
+            alt="Picture of Me"
+            class="float-img-1" />
+         <figcaption> Oklahoma- Mt. Scott </figcaption>
+      </figure>
       <h2>I love to record videos of sunset!</h2>
       <video width="320" height="240" controls>
          <source src="bab460354050464c9651dee445ddc6d2.MOV" type="video/mp4">
       </video>
-	<h2>Zoom into the map and know a little more about me</h2>   
+      <h2>Zoom into the map and know a little more about me</h2>
       <div id="viewDiv"></div>
    </body>
 </html>
