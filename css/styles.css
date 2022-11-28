@@ -74,4 +74,9 @@ float-img-1{
         width:200px;
         height:300px;
 }
-
+#viewDiv {
+	padding: 0; 
+	margin: 0; 
+	height: 100%;
+	width: 100%;
+}
