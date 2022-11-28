@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
    <head>
- <link
+ <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+	<link
       rel="stylesheet"
       href="https://js.arcgis.com/4.25/esri/themes/light/main.css"
     />
-      <link rel="stylesheet" href="css/styles.css"/>
+
     <script src="https://js.arcgis.com/4.25/"></script>
+	
+      <link rel="stylesheet" href="css/styles.css"/>
+
      <script>
       require(["esri/views/MapView", "esri/WebMap"], (MapView, WebMap) => {
         /************************************************************
