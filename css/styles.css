@@ -2,11 +2,11 @@
  *Webpage about myself
  */
 html{
-	background-color:#102372
+	background-color:#E8DAEF
 }
 
 body {
-	background-color:#02AB21
+	background-color:#F5EEF8
 	}
 
 h1 {
@@ -25,22 +25,7 @@ h2 {
 	padding-bottom: 25px;
 	color: #acd1b2;
 }
-#name {
-	position: relative;
-	top: -10px;
-	font-color:
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-}
 
-#email{
-	float:right;
-	margin-right:5px;
-	padding-top:5px;
-	font-size:16px;
-	font-family: Verdana, sans-serif;
-	color:#ffffff;
-}
 div{
 	border-radius:5px;
 }
@@ -62,11 +47,11 @@ div{
 }
 h1:hover
 {
-	background-color:#102372;
+	background-color:#E8DAEF;
 }
 h2:hover
 {
-	background-color:#102372;
+	background-color:#E8DAEF;
 }
 div{
 	border-radius:3px dotted blue;
