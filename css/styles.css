@@ -56,8 +56,8 @@ h2:hover
 
 .float-img {
 	float: right;
-	margin-right: 10px; 
-	margin-bottom: 5px; 
+	margin-right: 6px; 
+	margin-bottom: 0px; 
 	border: solid black 1px; 
 	padding: 2px; 
 	object-fit:scale-down;
@@ -65,7 +65,7 @@ h2:hover
         height:100px;
 }
 float-img-1{
-		float: right;
+	float: right;
 	margin-right: 10px; 
 	margin-bottom: 5px; 
 	border: solid black 1px; 
